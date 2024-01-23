@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./FeedbackOptions.module.css"
 
-export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+export const FeedbackOptions = ({ options = [], onLeaveFeedback }) => {
   return options.map(option => (
     <>
       <button
